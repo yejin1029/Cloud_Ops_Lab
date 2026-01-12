@@ -1,0 +1,5 @@
+{
+    "UserId": "AIDAZNMVF5DLAWP4JXJFT",
+    "Account": "647242311894",
+    "Arn": "arn:aws:iam::647242311894:user/terraform-user"
+}
