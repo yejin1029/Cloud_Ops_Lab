@@ -5,8 +5,9 @@
 ![Service](https://img.shields.io/badge/Service-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-Terraform으로 AWS(Seoul) 환경에 EC2를 프로비저닝하고, user_data로 Nginx를 자동 설치/기동하여
-**운영 가능한 형태로 배포 → 검증 → 정리(destroy)**까지 수행한 미니 랩입니다.
+Terraform으로 AWS(Seoul) 환경에 EC2를 프로비저닝하고, <br/>
+user_data로 Nginx를 자동 설치/기동하여<br/>
+운영 가능한 형태로 배포 → 검증 → 정리(destroy)까지 수행한 미니 랩입니다.
 
 ---
 
