@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Tue, 13 Jan 2026 05:05:04 GMT
+Content-Type: text/html
+Content-Length: 72
+Connection: keep-alive
+Server: nginx/1.28.0
+Last-Modified: Tue, 13 Jan 2026 05:03:25 GMT
+ETag: "6965d21d-48"
+Accept-Ranges: bytes
+

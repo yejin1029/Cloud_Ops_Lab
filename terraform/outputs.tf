@@ -1,11 +1,8 @@
-output "public_ip" {
-  value = aws_instance.web.public_ip
-}
-
-output "public_dns" {
-  value = aws_instance.web.public_dns
+output "alb_dns_name" {
+  value = aws_lb.web_alb.dns_name
 }
 
 output "url" {
-  value = "http://${aws_instance.web.public_dns}"
+  value = "http://${aws_lb.web_alb.dns_name}"
 }
+

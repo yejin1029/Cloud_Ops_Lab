@@ -1,0 +1,2 @@
+alb_dns_name = "cloud-ops-lab-alb-154860396.ap-northeast-2.elb.amazonaws.com"
+url = "http://cloud-ops-lab-alb-154860396.ap-northeast-2.elb.amazonaws.com"

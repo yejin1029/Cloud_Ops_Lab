@@ -5,7 +5,7 @@ variable "region" {
 
 variable "project_name" {
   type    = string
-  default = "cloud-ops-mini-lab"
+  default = "cloud-ops-lab"
 }
 
 variable "instance_type" {
@@ -20,7 +20,7 @@ variable "key_name" {
 
 variable "ssh_cidr" {
   type        = string
-  description = "Your public IP in CIDR format, e.g. 203.0.113.10/32"
+  description = "Your public IP in CIDR format, e.g. 112.152.93.138/32"
 }
 
 variable "http_cidr" {
@@ -28,3 +28,18 @@ variable "http_cidr" {
   default = "0.0.0.0/0"
 }
 
+# ASG sizing
+variable "asg_min_size" {
+  type    = number
+  default = 2
+}
+
+variable "asg_max_size" {
+  type    = number
+  default = 2
+}
+
+variable "asg_desired_capacity" {
+  type    = number
+  default = 2
+}
