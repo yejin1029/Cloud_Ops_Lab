@@ -111,7 +111,13 @@ resource "aws_launch_template" "web_lt" {
 
   vpc_security_group_ids = [aws_security_group.web_sg.id]
 
-  user_data = base64encode(file("${path.module}/userdata.sh"))
+  iam_instance_profile {
+    name = aws_iam_instance_profile.ec2_profile.name
+  }
+
+  user_data = base64encode(templatefile("${path.module}/userdata.tftpl", {
+    PROJECT_NAME = var.project_name
+  }))
 
   tag_specifications {
     resource_type = "instance"
